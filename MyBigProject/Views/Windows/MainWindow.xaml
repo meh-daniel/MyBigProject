@@ -12,13 +12,8 @@
     </Window.DataContext>
 
     <Grid>
-        <TextBox HorizontalAlignment="Left" 
-                 Height="23" 
-                 Margin="40,25,0,0" 
-                 TextWrapping="Wrap" 
-                 Text="{Binding Title, UpdateSourceTrigger=PropertyChanged}" 
-                 VerticalAlignment="Top" 
-                 Width="245"/>
+        <Slider VerticalAlignment="Top" HorizontalAlignment="Left" Margin="30" Width="300"
+                Value="{Binding Title}"/>
 
     </Grid>
 </Window>
